@@ -10,22 +10,22 @@ In my recent project, I have a need to monitor a directory for changes such as a
 
 After looking around for an existing solution, I finally found that [jNotify](http://jnotify.sourceforge.net/) seems to fit the need. It supports all the three major platforms (Windows, Linux, and MacOS).The project has not released any update for nearly two years, so it's a little bit tricky to compile the native code. In this post, I will show you how! (at least on a Ubuntu Server 64bit)
 
-In order to build anything serious on Ubuntu, you should install the package build-essentials
+In order to build anything serious on Ubuntu, you should install the package `build-essentials`
 
-```shell
+```sh
 sudo apt-get install build-essential
 ```
 
 Then download the source code of jNotify from its homepage. Extract it, open a terminal and issue the command: (assuming that you are at the directory jnotify-native-linux-0.93-src)
 
-```shell
+```sh
 cd Release
 make
 ```
 
 On ArchLinux 64bit, the compilation will succeed and you will get a `libjnotify.so` in the same folder. But on my Ubuntu Server 10.04 LTS, I've got this:
  
-```shell
+```sh
 /usr/include/asm-generic/fcntl.h:96: error: expected specifier-qualifier-list before ‘pid_t’
 ```
 

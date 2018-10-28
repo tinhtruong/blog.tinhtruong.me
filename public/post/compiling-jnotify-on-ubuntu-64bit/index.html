@@ -164,20 +164,20 @@ After looking around for an existing solution, I finally found that jNotify seem
 
 <p>After looking around for an existing solution, I finally found that <a href="http://jnotify.sourceforge.net/">jNotify</a> seems to fit the need. It supports all the three major platforms (Windows, Linux, and MacOS).The project has not released any update for nearly two years, so it&rsquo;s a little bit tricky to compile the native code. In this post, I will show you how! (at least on a Ubuntu Server 64bit)</p>
 
-<p>In order to build anything serious on Ubuntu, you should install the package build-essentials</p>
+<p>In order to build anything serious on Ubuntu, you should install the package <code>build-essentials</code></p>
 
-<pre><code class="language-shell">sudo apt-get install build-essential
+<pre><code class="language-sh">sudo apt-get install build-essential
 </code></pre>
 
 <p>Then download the source code of jNotify from its homepage. Extract it, open a terminal and issue the command: (assuming that you are at the directory jnotify-native-linux-0.93-src)</p>
 
-<pre><code class="language-shell">cd Release
+<pre><code class="language-sh">cd Release
 make
 </code></pre>
 
 <p>On ArchLinux 64bit, the compilation will succeed and you will get a <code>libjnotify.so</code> in the same folder. But on my Ubuntu Server 10.04 LTS, I&rsquo;ve got this:</p>
 
-<pre><code class="language-shell">/usr/include/asm-generic/fcntl.h:96: error: expected specifier-qualifier-list before ‘pid_t’
+<pre><code class="language-sh">/usr/include/asm-generic/fcntl.h:96: error: expected specifier-qualifier-list before ‘pid_t’
 </code></pre>
 
 <p>After Googling around I found this <a href="http://sourceforge.net/projects/jnotify/forums/forum/515553/topic/3770768">thread</a>. Basically, you have to change the file <code>net_contentobjects_jnotify_linux_JNotify_linux.c</code> by moving up the <code>unistd.h</code> up above the <code>sys/time.h</code>. Now issue the command <code>make</code>, the compilation will work as expected.</p>
