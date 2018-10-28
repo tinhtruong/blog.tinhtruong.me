@@ -10,6 +10,20 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/compiling-jnotify-on-ubuntu-64bit/</loc>
+    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/64bit/</loc>
+    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -31,6 +45,21 @@
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/jnotify/</loc>
+    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
+    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

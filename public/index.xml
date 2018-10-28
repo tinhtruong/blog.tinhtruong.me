@@ -20,5 +20,15 @@
       <description> First post </description>
     </item>
     
+    <item>
+      <title>Compiling JNotify on Ubuntu 64bit</title>
+      <link>http://localhost:1313/post/compiling-jnotify-on-ubuntu-64bit/</link>
+      <pubDate>Fri, 17 Feb 2012 22:52:56 +1100</pubDate>
+      
+      <guid>http://localhost:1313/post/compiling-jnotify-on-ubuntu-64bit/</guid>
+      <description>In my recent project, I have a need to monitor a directory for changes such as a new file created, modified or deleted. Surprisingly, JDK (up to JDK 6) does not have APIs to do that! JDK 7 does support it out of the box but I am stuck with the version 6.
+After looking around for an existing solution, I finally found that jNotify seems to fit the need. It supports all the three major platforms (Windows, Linux, and MacOS).</description>
+    </item>
+    
   </channel>
 </rss>
