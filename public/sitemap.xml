@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://blog.tinhtruong.me/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/post/first-post/</loc>
+    <loc>https://blog.tinhtruong.me/post/first-post/</loc>
     <lastmod>2018-10-28T18:00:54+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/compiling-jnotify-on-ubuntu-64bit/</loc>
+    <loc>https://blog.tinhtruong.me/post/compiling-jnotify-on-ubuntu-64bit/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/64bit/</loc>
+    <loc>https://blog.tinhtruong.me/tags/64bit/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.tinhtruong.me/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.tinhtruong.me/post/</loc>
     <lastmod>2018-10-28T18:00:54+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://blog.tinhtruong.me/tags/</loc>
+    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/</loc>
     <lastmod>2018-10-28T18:00:54+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.tinhtruong.me/tags/jnotify/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/jnotify/</loc>
-    <lastmod>2012-02-17T22:52:56+11:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/ubuntu/</loc>
+    <loc>https://blog.tinhtruong.me/tags/ubuntu/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

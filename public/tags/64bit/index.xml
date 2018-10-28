@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>64bit on Even - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/tags/64bit/</link>
-    <description>Recent content in 64bit on Even - A super concise theme for Hugo</description>
+    <title>64bit on Tinh Truong&#39;s blog</title>
+    <link>https://blog.tinhtruong.me/tags/64bit/</link>
+    <description>Recent content in 64bit on Tinh Truong&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Feb 2012 22:52:56 +1100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/64bit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.tinhtruong.me/tags/64bit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Compiling JNotify on Ubuntu 64bit</title>
-      <link>http://localhost:1313/post/compiling-jnotify-on-ubuntu-64bit/</link>
+      <link>https://blog.tinhtruong.me/post/compiling-jnotify-on-ubuntu-64bit/</link>
       <pubDate>Fri, 17 Feb 2012 22:52:56 +1100</pubDate>
       
-      <guid>http://localhost:1313/post/compiling-jnotify-on-ubuntu-64bit/</guid>
+      <guid>https://blog.tinhtruong.me/post/compiling-jnotify-on-ubuntu-64bit/</guid>
       <description>In my recent project, I have a need to monitor a directory for changes such as a new file created, modified or deleted. Surprisingly, JDK (up to JDK 6) does not have APIs to do that! JDK 7 does support it out of the box but I am stuck with the version 6.
 After looking around for an existing solution, I finally found that jNotify seems to fit the need. It supports all the three major platforms (Windows, Linux, and MacOS).</description>
     </item>

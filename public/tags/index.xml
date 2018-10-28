@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Even - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
+    <title>Tags on Tinh Truong&#39;s blog</title>
+    <link>https://blog.tinhtruong.me/tags/</link>
+    <description>Recent content in Tags on Tinh Truong&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Feb 2012 22:52:56 +1100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.tinhtruong.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>64bit</title>
-      <link>http://localhost:1313/tags/64bit/</link>
+      <link>https://blog.tinhtruong.me/tags/64bit/</link>
       <pubDate>Fri, 17 Feb 2012 22:52:56 +1100</pubDate>
       
-      <guid>http://localhost:1313/tags/64bit/</guid>
+      <guid>https://blog.tinhtruong.me/tags/64bit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jnotify</title>
-      <link>http://localhost:1313/tags/jnotify/</link>
+      <link>https://blog.tinhtruong.me/tags/jnotify/</link>
       <pubDate>Fri, 17 Feb 2012 22:52:56 +1100</pubDate>
       
-      <guid>http://localhost:1313/tags/jnotify/</guid>
+      <guid>https://blog.tinhtruong.me/tags/jnotify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>http://localhost:1313/tags/ubuntu/</link>
+      <link>https://blog.tinhtruong.me/tags/ubuntu/</link>
       <pubDate>Fri, 17 Feb 2012 22:52:56 +1100</pubDate>
       
-      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <guid>https://blog.tinhtruong.me/tags/ubuntu/</guid>
       <description></description>
     </item>
     
