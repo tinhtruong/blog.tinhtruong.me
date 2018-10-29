@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java on Tinh Truong&#39;s blog</title>
-    <link>https://blog.tinhtruong.me/tags/java/</link>
-    <description>Recent content in java on Tinh Truong&#39;s blog</description>
+    <title>lucene on Tinh Truong&#39;s blog</title>
+    <link>https://blog.tinhtruong.me/tags/lucene/</link>
+    <description>Recent content in lucene on Tinh Truong&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Oct 2018 22:15:50 +1100</lastBuildDate>
     
-	<atom:link href="https://blog.tinhtruong.me/tags/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.tinhtruong.me/tags/lucene/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://blog.tinhtruong.me/post/highlighting-text-with-lucene-highlighter/</guid>
       <description>I have a chance to use Lucene (3.6.0) to implement a full-text search in one of my recent projects. One of the requirements is to highlight the matched text in the result. The highlighted text should be displayed in the whole paragraph (not just a small text fragment). Here is my snippet to achieve this:
 private String getHighlightedField(Query query, Analyzer analyzer, String fieldName, String fieldValue) throws IOException, InvalidTokenOffsetsException { Formatter formatter = new SimpleHTMLFormatter(&amp;quot;&amp;lt;span class=\&amp;quot;MatchedText\&amp;quot;&amp;gt;&amp;quot;, &amp;quot;&amp;lt;/span&amp;gt;&amp;quot;); QueryScorer queryScorer = new QueryScorer(query); Highlighter highlighter = new Highlighter(formatter, queryScorer); highlighter.</description>
-    </item>
-    
-    <item>
-      <title>Configuring JNDI Mail Session in Tomcat</title>
-      <link>https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/</link>
-      <pubDate>Mon, 07 Dec 2009 21:42:15 +1100</pubDate>
-      
-      <guid>https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/</guid>
-      <description>I&amp;rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&amp;rsquo;t use it. With the source code of EP in hand, things get much easier.</description>
     </item>
     
   </channel>
