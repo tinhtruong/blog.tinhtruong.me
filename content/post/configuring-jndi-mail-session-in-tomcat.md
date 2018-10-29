@@ -2,6 +2,7 @@
 title: "Configuring JNDI Mail Session in Tomcat"
 date: 2009-12-07T21:42:15+11:00
 draft: false
+tags: ["java"]
 ---
 
 I've just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don't use it. With the source code of EP in hand, things get much easier. First, we declare a JNDI resource in our application context (either in your context file in the `conf/Catalina/localhost/` or in your `context.xml` under `META-INF` inside your war):

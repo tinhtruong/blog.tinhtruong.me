@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>https://blog.tinhtruong.me/post/fpt-will-have-a-mirror-for-arch-soon/</loc>
+    <lastmod>2009-03-06T21:54:48+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tinhtruong.me/tags/64bit/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -51,8 +58,36 @@
   </url>
   
   <url>
+    <loc>https://blog.tinhtruong.me/tags/arch/</loc>
+    <lastmod>2009-03-06T21:54:48+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/tags/fpt/</loc>
+    <lastmod>2009-03-06T21:54:48+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/tags/java/</loc>
+    <lastmod>2009-12-07T21:42:15+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tinhtruong.me/tags/jnotify/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/tags/mirror/</loc>
+    <lastmod>2009-03-06T21:54:48+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Configuring JNDI Mail Session in Tomcat - Tinh Truong&#39;s blog</title>
+  <title>FPT Will Have a Mirror for Arch Soon - Tinh Truong&#39;s blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,9 @@
 
 
 <meta name="author" content="Tinh Truong" />
-  <meta name="description" content="I&amp;rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&amp;rsquo;t use it. With the source code of EP in hand, things get much easier." />
+  <meta name="description" content="I&amp;rsquo;ve switched to ArchLinux from Fedora a couple of months ago and I really miss the mirror of Fedora on FPT (my current ISP). A few days ago, I wrote an email to ask the FPT mirrors admin to add a mirror for ArchLinux to their mirror systems. Here is what I wrote (in Vietnamese):
+ Gởi Admin mirror của FPT.
+Arch Linux là một distro khá phổ biến hiện nay, ArchLinux đang đứng trong top 20 distro phổ biến theo Distrowatch." />
 
   <meta name="keywords" content="Tinh Truong, blog" />
 
@@ -29,7 +31,7 @@
 <meta name="generator" content="Hugo 0.49.2" />
 
 
-<link rel="canonical" href="https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/" />
+<link rel="canonical" href="https://blog.tinhtruong.me/post/fpt-will-have-a-mirror-for-arch-soon/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,26 +51,32 @@
 
 
 
-<meta property="og:title" content="Configuring JNDI Mail Session in Tomcat" />
-<meta property="og:description" content="I&rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&rsquo;t use it. With the source code of EP in hand, things get much easier." />
+<meta property="og:title" content="FPT Will Have a Mirror for Arch Soon" />
+<meta property="og:description" content="I&rsquo;ve switched to ArchLinux from Fedora a couple of months ago and I really miss the mirror of Fedora on FPT (my current ISP). A few days ago, I wrote an email to ask the FPT mirrors admin to add a mirror for ArchLinux to their mirror systems. Here is what I wrote (in Vietnamese):
+ Gởi Admin mirror của FPT.
+Arch Linux là một distro khá phổ biến hiện nay, ArchLinux đang đứng trong top 20 distro phổ biến theo Distrowatch." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/" /><meta property="article:published_time" content="2009-12-07T21:42:15&#43;11:00"/>
-<meta property="article:modified_time" content="2009-12-07T21:42:15&#43;11:00"/>
+<meta property="og:url" content="https://blog.tinhtruong.me/post/fpt-will-have-a-mirror-for-arch-soon/" /><meta property="article:published_time" content="2009-03-06T21:54:48&#43;11:00"/>
+<meta property="article:modified_time" content="2009-03-06T21:54:48&#43;11:00"/>
 
-<meta itemprop="name" content="Configuring JNDI Mail Session in Tomcat">
-<meta itemprop="description" content="I&rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&rsquo;t use it. With the source code of EP in hand, things get much easier.">
-
-
-<meta itemprop="datePublished" content="2009-12-07T21:42:15&#43;11:00" />
-<meta itemprop="dateModified" content="2009-12-07T21:42:15&#43;11:00" />
-<meta itemprop="wordCount" content="205">
+<meta itemprop="name" content="FPT Will Have a Mirror for Arch Soon">
+<meta itemprop="description" content="I&rsquo;ve switched to ArchLinux from Fedora a couple of months ago and I really miss the mirror of Fedora on FPT (my current ISP). A few days ago, I wrote an email to ask the FPT mirrors admin to add a mirror for ArchLinux to their mirror systems. Here is what I wrote (in Vietnamese):
+ Gởi Admin mirror của FPT.
+Arch Linux là một distro khá phổ biến hiện nay, ArchLinux đang đứng trong top 20 distro phổ biến theo Distrowatch.">
 
 
+<meta itemprop="datePublished" content="2009-03-06T21:54:48&#43;11:00" />
+<meta itemprop="dateModified" content="2009-03-06T21:54:48&#43;11:00" />
+<meta itemprop="wordCount" content="258">
 
-<meta itemprop="keywords" content="java," />
+
+
+<meta itemprop="keywords" content="arch,fpt,mirror," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Configuring JNDI Mail Session in Tomcat"/>
-<meta name="twitter:description" content="I&rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&rsquo;t use it. With the source code of EP in hand, things get much easier."/>
+<meta name="twitter:title" content="FPT Will Have a Mirror for Arch Soon"/>
+<meta name="twitter:description" content="I&rsquo;ve switched to ArchLinux from Fedora a couple of months ago and I really miss the mirror of Fedora on FPT (my current ISP). A few days ago, I wrote an email to ask the FPT mirrors admin to add a mirror for ArchLinux to their mirror systems. Here is what I wrote (in Vietnamese):
+ Gởi Admin mirror của FPT.
+Arch Linux là một distro khá phổ biến hiện nay, ArchLinux đang đứng trong top 20 distro phổ biến theo Distrowatch."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -131,10 +139,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Configuring JNDI Mail Session in Tomcat</h1>
+      <h1 class="post-title">FPT Will Have a Mirror for Arch Soon</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2009-12-07 </span>
+        <span class="post-time"> 2009-03-06 </span>
         
         
         
@@ -156,47 +164,35 @@
 
     
     <div class="post-content">
-      <p>I&rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&rsquo;t use it. With the source code of EP in hand, things get much easier. First, we declare a JNDI resource in our application context (either in your context file in the <code>conf/Catalina/localhost/</code> or in your <code>context.xml</code> under <code>META-INF</code> inside your war):</p>
+      <p>I&rsquo;ve switched to ArchLinux from Fedora a couple of months ago and I really miss the mirror of Fedora on FPT (my current ISP). A few days ago, I wrote an email to ask the FPT mirrors admin to add a mirror for ArchLinux to their mirror systems. Here is what I wrote (in Vietnamese):</p>
 
-<pre><code class="language-xml">&lt;context&gt;
-    &lt;Resource name=&quot;mail/Session&quot; 
-              auth=&quot;Container&quot;
-              type=&quot;javax.mail.Session&quot;    
-              username=&quot;my.smtp.user&quot;
-              password=&quot;my-secret&quot;
-              mail.debug=&quot;false&quot;
-              mail.transport.protocol=&quot;smtp&quot;
-              mail.smtp.host= &quot;xxx.xxx.xxx.xxx&quot;
-              mail.smtp.auth= &quot;true&quot;
-              mail.smtp.port= &quot;25&quot;
-              mail.smtp.starttls.enable=&quot;true&quot;
-              description=&quot;Global E-Mail Resource&quot;&gt;
-              
-    &lt;/Resource&gt;
-&lt;/context&gt;
-</code></pre>
+<blockquote>
+<p>Gởi Admin mirror của FPT.</p>
 
-<p>And put those in your <code>web.xml</code> file:</p>
+<p><a href="https://www.archlinux.org/">Arch Linux</a> là một distro khá phổ biến hiện nay, ArchLinux đang đứng trong top 20 distro phổ biến theo Distrowatch.com. Nếu được, mình xin admin cài đặt một mirror tại <a href="http://mirror-fpt-telecom.fpt.net/">http://mirror-fpt-telecom.fpt.net/</a>. Mình gởi bạn địa chỉ URL của ArchLinux repository: <a href="ftp://ftp.archlinux.org/">ftp://ftp.archlinux.org/</a></p>
 
-<pre><code class="language-xml">&lt;resource-ref&gt;
-    &lt;description&gt;Email Session&lt;/description&gt;
-    &lt;res-ref-name&gt;mail/Session&lt;/res-ref-name&gt;
-    &lt;res-type&gt;javax.mail.Session&lt;/res-type&gt;
-    &lt;res-auth&gt;Container&lt;/res-auth&gt;
-&lt;/resource-ref&gt;
-</code></pre>
+<p>Hi vọng mình sớm được thấy ArchLinux repositories sẽ xuất hiện trong danh sách mirror của FPT.</p>
 
-<p>And now, in your Java code, you will use this email session like this:</p>
+<p>Cám ơn Admin rất nhiều!</p>
+</blockquote>
 
-<pre><code class="language-java">    Context initContext = new InitialContext();
-    Context context = (Context) initContext.lookup(&quot;java:comp/env&quot;);
-    Session mailSession = (Session) context.lookup(&quot;mail/Session&quot;);
-    //Your code to send the email goes here
-</code></pre>
+<p>Basically, what I said is ArchLinux is a popular distro, it&rsquo;s in top 20 of DistroWatch (02 Mar 2009) and asking them to setup a mirror for ArchLinux.</p>
 
-<p>If you get a <code>java.lang.ClassCastException</code>, don&rsquo;t worry, this is a known issue. It&rsquo;s because you have multiple Java Mail jar file and Java Activation Framework jar file in your CLASSPATH!</p>
+<p>And here is their reply (in Vietnamese):</p>
 
-<p>Hope that may help!</p>
+<blockquote>
+<p>Chào ,</p>
+
+<p>Cám ơn về ý kiến đóng góp của bạn. Chúng tôi sẽ mirror archlinux trong thời gian sớm nhất.</p>
+
+<p>Mong nhận được những ý kiến đóng góp tiếp theo của bạn.</p>
+
+<p>Mr.Admin</p>
+</blockquote>
+
+<p>What they said is: &ldquo;Thanks for your suggestion. We will mirror ArchLinux ASAP. We hope to receive your suggestions in the future&rdquo;. I have changed my real name and the name of the author of the above email. It&rsquo;s great news for Arch lovers in Vietnam.</p>
+
+<p>At the moment, FPT have mirrors for the following distros: CentOS, Debian, Fedora, Gentoo, Mandriva, openSUSE, Slackware and Ubuntu.</p>
 
     </div>
 
@@ -208,7 +204,7 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2009-12-07</span>
+    <span class="item-content">2009-03-06</span>
   </p>
   
   
@@ -220,24 +216,23 @@
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/tags/java/">java</a>
+          <a href="/tags/arch/">arch</a>
+          
+          <a href="/tags/fpt/">fpt</a>
+          
+          <a href="/tags/mirror/">mirror</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/compiling-jnotify-on-ubuntu-64bit/">
+          <a class="prev" href="/post/configuring-jndi-mail-session-in-tomcat/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Compiling JNotify on Ubuntu 64bit</span>
+            <span class="prev-text nav-default">Configuring JNDI Mail Session in Tomcat</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/post/fpt-will-have-a-mirror-for-arch-soon/">
-            <span class="next-text nav-default">FPT Will Have a Mirror for Arch Soon</span>
-            <span class="next-text nav-mobile">Next</span>
-            <i class="iconfont icon-right"></i>
-          </a>
       </nav>
     </footer>
   </article>

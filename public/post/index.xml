@@ -30,5 +30,16 @@ After looking around for an existing solution, I finally found that jNotify seem
       <description>I&amp;rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&amp;rsquo;t use it. With the source code of EP in hand, things get much easier.</description>
     </item>
     
+    <item>
+      <title>FPT Will Have a Mirror for Arch Soon</title>
+      <link>https://blog.tinhtruong.me/post/fpt-will-have-a-mirror-for-arch-soon/</link>
+      <pubDate>Fri, 06 Mar 2009 21:54:48 +1100</pubDate>
+      
+      <guid>https://blog.tinhtruong.me/post/fpt-will-have-a-mirror-for-arch-soon/</guid>
+      <description>I&amp;rsquo;ve switched to ArchLinux from Fedora a couple of months ago and I really miss the mirror of Fedora on FPT (my current ISP). A few days ago, I wrote an email to ask the FPT mirrors admin to add a mirror for ArchLinux to their mirror systems. Here is what I wrote (in Vietnamese):
+ Gởi Admin mirror của FPT.
+Arch Linux là một distro khá phổ biến hiện nay, ArchLinux đang đứng trong top 20 distro phổ biến theo Distrowatch.</description>
+    </item>
+    
   </channel>
 </rss>
