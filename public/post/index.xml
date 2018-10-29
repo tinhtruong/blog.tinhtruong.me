@@ -30,5 +30,14 @@
 After looking around for an existing solution, I finally found that jNotify seems to fit the need. It supports all the three major platforms (Windows, Linux, and MacOS).</description>
     </item>
     
+    <item>
+      <title>Configuring JNDI Mail Session in Tomcat</title>
+      <link>https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/</link>
+      <pubDate>Mon, 07 Dec 2009 21:42:15 +1100</pubDate>
+      
+      <guid>https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/</guid>
+      <description>I&amp;rsquo;ve just joined a project as a freelancer to customize a commercial e-commerce solution (so let called it EP). OOTB, the email sending of EP does not support authentication, which is a weird thing for such a cool product like that. Actually, EP does declare an JNDI mail session in the context, but in the code they don&amp;rsquo;t use it. With the source code of EP in hand, things get much easier.</description>
+    </item>
+    
   </channel>
 </rss>

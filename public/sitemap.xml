@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>https://blog.tinhtruong.me/post/configuring-jndi-mail-session-in-tomcat/</loc>
+    <lastmod>2009-12-07T21:42:15+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tinhtruong.me/tags/64bit/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
     <changefreq>weekly</changefreq>
