@@ -6,7 +6,7 @@
     <description>Recent content in java on Tinh Truong&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Oct 2018 22:15:50 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Apr 2012 22:15:50 +1100</lastBuildDate>
     
 	<atom:link href="https://blog.tinhtruong.me/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Highlighting Text With Lucene Highlighter</title>
       <link>https://blog.tinhtruong.me/post/highlighting-text-with-lucene-highlighter/</link>
-      <pubDate>Mon, 29 Oct 2018 22:15:50 +1100</pubDate>
+      <pubDate>Sat, 21 Apr 2012 22:15:50 +1100</pubDate>
       
       <guid>https://blog.tinhtruong.me/post/highlighting-text-with-lucene-highlighter/</guid>
       <description>I have a chance to use Lucene (3.6.0) to implement a full-text search in one of my recent projects. One of the requirements is to highlight the matched text in the result. The highlighted text should be displayed in the whole paragraph (not just a small text fragment). Here is my snippet to achieve this:

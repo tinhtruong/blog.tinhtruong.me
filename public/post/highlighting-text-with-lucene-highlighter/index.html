@@ -27,7 +27,7 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
 
 
 
-<meta name="generator" content="Hugo 0.49.2" />
+<meta name="generator" content="Hugo 0.50" />
 
 
 <link rel="canonical" href="https://blog.tinhtruong.me/post/highlighting-text-with-lucene-highlighter/" />
@@ -54,16 +54,16 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
 <meta property="og:description" content="I have a chance to use Lucene (3.6.0) to implement a full-text search in one of my recent projects. One of the requirements is to highlight the matched text in the result. The highlighted text should be displayed in the whole paragraph (not just a small text fragment). Here is my snippet to achieve this:
 private String getHighlightedField(Query query, Analyzer analyzer, String fieldName, String fieldValue) throws IOException, InvalidTokenOffsetsException { Formatter formatter = new SimpleHTMLFormatter(&quot;&lt;span class=\&quot;MatchedText\&quot;&gt;&quot;, &quot;&lt;/span&gt;&quot;); QueryScorer queryScorer = new QueryScorer(query); Highlighter highlighter = new Highlighter(formatter, queryScorer); highlighter." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.tinhtruong.me/post/highlighting-text-with-lucene-highlighter/" /><meta property="article:published_time" content="2018-10-29T22:15:50&#43;11:00"/>
-<meta property="article:modified_time" content="2018-10-29T22:15:50&#43;11:00"/>
+<meta property="og:url" content="https://blog.tinhtruong.me/post/highlighting-text-with-lucene-highlighter/" /><meta property="article:published_time" content="2012-04-21T22:15:50&#43;11:00"/>
+<meta property="article:modified_time" content="2012-04-21T22:15:50&#43;11:00"/>
 
 <meta itemprop="name" content="Highlighting Text With Lucene Highlighter">
 <meta itemprop="description" content="I have a chance to use Lucene (3.6.0) to implement a full-text search in one of my recent projects. One of the requirements is to highlight the matched text in the result. The highlighted text should be displayed in the whole paragraph (not just a small text fragment). Here is my snippet to achieve this:
 private String getHighlightedField(Query query, Analyzer analyzer, String fieldName, String fieldValue) throws IOException, InvalidTokenOffsetsException { Formatter formatter = new SimpleHTMLFormatter(&quot;&lt;span class=\&quot;MatchedText\&quot;&gt;&quot;, &quot;&lt;/span&gt;&quot;); QueryScorer queryScorer = new QueryScorer(query); Highlighter highlighter = new Highlighter(formatter, queryScorer); highlighter.">
 
 
-<meta itemprop="datePublished" content="2018-10-29T22:15:50&#43;11:00" />
-<meta itemprop="dateModified" content="2018-10-29T22:15:50&#43;11:00" />
+<meta itemprop="datePublished" content="2012-04-21T22:15:50&#43;11:00" />
+<meta itemprop="dateModified" content="2012-04-21T22:15:50&#43;11:00" />
 <meta itemprop="wordCount" content="174">
 
 
@@ -138,7 +138,7 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
       <h1 class="post-title">Highlighting Text With Lucene Highlighter</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-10-29 </span>
+        <span class="post-time"> 2012-04-21 </span>
         
         
         
@@ -173,9 +173,9 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
 </code></pre>
 
 <ul>
-<li>By creating a SimpleSpanFragmenter with a very big fragment size, we can display the highlighted text in the whole paragraph or document. Lucene also does a nice thing here for free, by merging all the highlighted text fragments into one big chunk (or our original paragraph/document)</li>
-<li>query: is the Lucene query you constructed to do the search</li>
-<li>analyzer: is the Lucene analyzer are used to analyzed the field when you create the index for that field</li>
+<li>By creating a <code>SimpleSpanFragmenter</code> with a very big fragment size, we can display the highlighted text in the whole paragraph or document. Lucene also does a nice thing here for free, by merging all the highlighted text fragments into one big chunk (or our original paragraph/document).</li>
+<li><code>query</code>: is the Lucene query you constructed to do the search.</li>
+<li><code>analyzer</code>: is the Lucene analyzer are used to analyzed the field when you create the index for that field.</li>
 </ul>
 
 <p>Happy highlighting!</p>
@@ -190,7 +190,7 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-10-29</span>
+    <span class="item-content">2012-04-21</span>
   </p>
   
   
