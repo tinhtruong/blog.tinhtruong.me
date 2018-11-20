@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bitbucket on Tinh Truong&#39;s blog</title>
+    <link>https://blog.tinhtruong.me/tags/bitbucket/</link>
+    <description>Recent content in bitbucket on Tinh Truong&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Mar 2012 22:03:20 +1100</lastBuildDate>
+    
+	<atom:link href="https://blog.tinhtruong.me/tags/bitbucket/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to import Git Projects from Bitbucket into Eclipse</title>
+      <link>https://blog.tinhtruong.me/post/how-to-import-git-projects-from-bitbucket-into-eclipse/</link>
+      <pubDate>Wed, 28 Mar 2012 22:03:20 +1100</pubDate>
+      
+      <guid>https://blog.tinhtruong.me/post/how-to-import-git-projects-from-bitbucket-into-eclipse/</guid>
+      <description>This how-to is served as my memo to import a Bitbucket project into Eclipse. First things first, make sure you have an up-and-running Eclipse with EGit (in this how-to I am using Eclipse Indigo 3.7.2 with EGit 1.3.0)
+ Create a folder to hold the workspace for your new project (You can skip this step if you want to use an existing workspace), I will use one of my project on Bitbucket in this how-to.</description>
+    </item>
+    
+  </channel>
+</rss>

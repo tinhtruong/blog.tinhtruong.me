@@ -22,6 +22,16 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
     </item>
     
     <item>
+      <title>How to import Git Projects from Bitbucket into Eclipse</title>
+      <link>https://blog.tinhtruong.me/post/how-to-import-git-projects-from-bitbucket-into-eclipse/</link>
+      <pubDate>Wed, 28 Mar 2012 22:03:20 +1100</pubDate>
+      
+      <guid>https://blog.tinhtruong.me/post/how-to-import-git-projects-from-bitbucket-into-eclipse/</guid>
+      <description>This how-to is served as my memo to import a Bitbucket project into Eclipse. First things first, make sure you have an up-and-running Eclipse with EGit (in this how-to I am using Eclipse Indigo 3.7.2 with EGit 1.3.0)
+ Create a folder to hold the workspace for your new project (You can skip this step if you want to use an existing workspace), I will use one of my project on Bitbucket in this how-to.</description>
+    </item>
+    
+    <item>
       <title>Compiling JNotify on Ubuntu 64bit</title>
       <link>https://blog.tinhtruong.me/post/compiling-jnotify-on-ubuntu-64bit/</link>
       <pubDate>Fri, 17 Feb 2012 22:52:56 +1100</pubDate>
@@ -29,6 +39,15 @@ private String getHighlightedField(Query query, Analyzer analyzer, String fieldN
       <guid>https://blog.tinhtruong.me/post/compiling-jnotify-on-ubuntu-64bit/</guid>
       <description>In my recent project, I have a need to monitor a directory for changes such as a new file created, modified or deleted. Surprisingly, JDK (up to JDK 6) does not have APIs to do that! JDK 7 does support it out of the box but I am stuck with the version 6.
 After looking around for an existing solution, I finally found that jNotify seems to fit the need. It supports all the three major platforms (Windows, Linux, and MacOS).</description>
+    </item>
+    
+    <item>
+      <title>How to Install Gradle Templates Plugin Globally</title>
+      <link>https://blog.tinhtruong.me/post/how-to-install-gradle-templates-plugin-globally/</link>
+      <pubDate>Sat, 28 Jan 2012 23:21:54 +1100</pubDate>
+      
+      <guid>https://blog.tinhtruong.me/post/how-to-install-gradle-templates-plugin-globally/</guid>
+      <description>I&amp;rsquo;ve been exposing to Gradle for a couple of weeks and really like it. As a Maven user, I found that Gradle is a refreshing methodology on how a build tool should be. But one thing I miss from the Maven land: the ability to generate the initial structure for a project (I mean the &amp;lsquo;archetype&amp;rsquo; plugin of Maven). Luckily, due to the plugin architecture of Gradle, a Gradle user has developed a plugin just for that purpose.</description>
     </item>
     
     <item>

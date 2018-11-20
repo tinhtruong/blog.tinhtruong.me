@@ -10,8 +10,22 @@
   </url>
   
   <url>
+    <loc>https://blog.tinhtruong.me/post/how-to-import-git-projects-from-bitbucket-into-eclipse/</loc>
+    <lastmod>2012-03-28T22:03:20+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tinhtruong.me/post/compiling-jnotify-on-ubuntu-64bit/</loc>
     <lastmod>2012-02-17T22:52:56+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/post/how-to-install-gradle-templates-plugin-globally/</loc>
+    <lastmod>2012-01-28T23:21:54+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -72,8 +86,29 @@
   </url>
   
   <url>
+    <loc>https://blog.tinhtruong.me/tags/bitbucket/</loc>
+    <lastmod>2012-03-28T22:03:20+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/tags/eclipse/</loc>
+    <lastmod>2012-03-28T22:03:20+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tinhtruong.me/tags/fpt/</loc>
     <lastmod>2009-03-06T21:54:48+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tinhtruong.me/tags/git/</loc>
+    <lastmod>2012-03-28T22:03:20+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
