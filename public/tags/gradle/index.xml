@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gradle on Tinh Truong&#39;s blog</title>
+    <link>https://blog.tinhtruong.me/tags/gradle/</link>
+    <description>Recent content in gradle on Tinh Truong&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Jan 2012 23:21:54 +1100</lastBuildDate>
+    
+	<atom:link href="https://blog.tinhtruong.me/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Install Gradle Templates Plugin Globally</title>
+      <link>https://blog.tinhtruong.me/post/how-to-install-gradle-templates-plugin-globally/</link>
+      <pubDate>Sat, 28 Jan 2012 23:21:54 +1100</pubDate>
+      
+      <guid>https://blog.tinhtruong.me/post/how-to-install-gradle-templates-plugin-globally/</guid>
+      <description>I&amp;rsquo;ve been exposing to Gradle for a couple of weeks and really like it. As a Maven user, I found that Gradle is a refreshing methodology on how a build tool should be. But one thing I miss from the Maven land: the ability to generate the initial structure for a project (I mean the &amp;lsquo;archetype&amp;rsquo; plugin of Maven). Luckily, due to the plugin architecture of Gradle, a Gradle user has developed a plugin just for that purpose.</description>
+    </item>
+    
+  </channel>
+</rss>
